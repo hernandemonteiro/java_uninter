@@ -16,7 +16,7 @@ public class App {
         // String nome = scanner.nextLine();
 
         // System.out.println("Seu nome é " + nome + "!");
-        // scanner.close();
+        scanner.close();
 
         int peso = 93;
         double altura = 1.81;
@@ -39,7 +39,7 @@ public class App {
         }
 
         UserController userController = new UserController();
-        userController.put("José", 20);
+        userController.put("José", 25);
         userController.put("Maria", 30);
         userController.put("João", 40);
 
